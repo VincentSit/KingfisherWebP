@@ -17,11 +17,46 @@
 		537689F31EBE979300D45CB4 /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 537689F11EBE979300D45CB4 /* animation.gif */; };
 		537689F41EBE979300D45CB4 /* animation.webp in Resources */ = {isa = PBXBuildFile; fileRef = 537689F21EBE979300D45CB4 /* animation.webp */; };
 		607FACEC1AFB9204008FA782 /* KingfisherWebPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* KingfisherWebPTests.swift */; };
+		75D12F99635775D9F62C8406 /* Pods_KingfisherWebP_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8329A8DF4BD346B7C9E7F4FF /* Pods_KingfisherWebP_watchOS.framework */; };
+		93C911E7212D111000740633 /* KingfisherWebP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C911E5212D111000740633 /* KingfisherWebP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C911EA212D111000740633 /* KingfisherWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C911E3212D111000740633 /* KingfisherWebP.framework */; };
+		93C911EB212D111000740633 /* KingfisherWebP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93C911E3212D111000740633 /* KingfisherWebP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		93C911F9212D124800740633 /* KingfisherWebP_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C911F7212D124800740633 /* KingfisherWebP_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C91206212D126F00740633 /* KingfisherWebP_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C91204212D126F00740633 /* KingfisherWebP_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A22F11158FFE4486542584 /* Pods_KingfisherWebP_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6306053B09EF5C4CB14C4A0 /* Pods_KingfisherWebP_tvOS.framework */; };
+		FD3BE1AB1A013D35681A4C2E /* Pods_KingfisherWebP_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19925BE1630AEBDF4FF4C176 /* Pods_KingfisherWebP_iOS.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C911E8212D111000740633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C911E2212D111000740633;
+			remoteInfo = "KingfisherWebP-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93C911EF212D111000740633 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				93C911EB212D111000740633 /* KingfisherWebP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		181E194F167762593F54F29D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19925BE1630AEBDF4FF4C176 /* Pods_KingfisherWebP_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherWebP_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4330F8E308C8F803AA06C6 /* Pods-KingfisherWebP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP_Tests/Pods-KingfisherWebP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF368C823B880E99FBC84BA /* Pods-KingfisherWebP-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-iOS/Pods-KingfisherWebP-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2428C3C81FBDC27B15EB261F /* Pods-KingfisherWebP-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-watchOS/Pods-KingfisherWebP-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		25C3BF0FCE60D20771A69AE2 /* Pods_KingfisherWebP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherWebP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383E63DD1DB920BE0041CE17 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
 		383E63DE1DB920BE0041CE17 /* cover.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cover.webp; sourceTree = "<group>"; };
@@ -36,8 +71,23 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* KingfisherWebPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherWebPTests.swift; sourceTree = "<group>"; };
 		7B8DF0C5D391E104D17A322F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8329A8DF4BD346B7C9E7F4FF /* Pods_KingfisherWebP_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherWebP_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B53D86FCC24591EBD9E790 /* Pods-KingfisherWebP-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-tvOS/Pods-KingfisherWebP-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		93C911E3212D111000740633 /* KingfisherWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingfisherWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C911E5212D111000740633 /* KingfisherWebP_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KingfisherWebP_iOS.h; sourceTree = "<group>"; };
+		93C911E6212D111000740633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C911F5212D124800740633 /* KingfisherWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingfisherWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C911F7212D124800740633 /* KingfisherWebP_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KingfisherWebP_tvOS.h; sourceTree = "<group>"; };
+		93C911F8212D124800740633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C91202212D126F00740633 /* KingfisherWebP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KingfisherWebP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C91204212D126F00740633 /* KingfisherWebP_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KingfisherWebP_watchOS.h; sourceTree = "<group>"; };
+		93C91205212D126F00740633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC1668044057334C209DECF6 /* KingfisherWebP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KingfisherWebP.podspec; path = ../KingfisherWebP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC689D47817BF136CB9D4A1B /* Pods-KingfisherWebP-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-tvOS/Pods-KingfisherWebP-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E64623EFC52785C2C626785E /* Pods-KingfisherWebP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP_Tests/Pods-KingfisherWebP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3B6E0FDCC90587429C96FFB /* Pods-KingfisherWebP-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-watchOS/Pods-KingfisherWebP-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		F6306053B09EF5C4CB14C4A0 /* Pods_KingfisherWebP_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherWebP_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8E657FF8D59827316469FE /* Pods-KingfisherWebP-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherWebP-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherWebP-iOS/Pods-KingfisherWebP-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C911EA212D111000740633 /* KingfisherWebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +107,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93C911E0212D111000740633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3BE1AB1A013D35681A4C2E /* Pods_KingfisherWebP_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911F2212D124800740633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A22F11158FFE4486542584 /* Pods_KingfisherWebP_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911FF212D126F00740633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D12F99635775D9F62C8406 /* Pods_KingfisherWebP_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				25C3BF0FCE60D20771A69AE2 /* Pods_KingfisherWebP_Tests.framework */,
+				19925BE1630AEBDF4FF4C176 /* Pods_KingfisherWebP_iOS.framework */,
+				F6306053B09EF5C4CB14C4A0 /* Pods_KingfisherWebP_tvOS.framework */,
+				8329A8DF4BD346B7C9E7F4FF /* Pods_KingfisherWebP_watchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,6 +150,12 @@
 			children = (
 				1B4330F8E308C8F803AA06C6 /* Pods-KingfisherWebP_Tests.debug.xcconfig */,
 				E64623EFC52785C2C626785E /* Pods-KingfisherWebP_Tests.release.xcconfig */,
+				FB8E657FF8D59827316469FE /* Pods-KingfisherWebP-iOS.debug.xcconfig */,
+				1BF368C823B880E99FBC84BA /* Pods-KingfisherWebP-iOS.release.xcconfig */,
+				91B53D86FCC24591EBD9E790 /* Pods-KingfisherWebP-tvOS.debug.xcconfig */,
+				DC689D47817BF136CB9D4A1B /* Pods-KingfisherWebP-tvOS.release.xcconfig */,
+				2428C3C81FBDC27B15EB261F /* Pods-KingfisherWebP-watchOS.debug.xcconfig */,
+				F3B6E0FDCC90587429C96FFB /* Pods-KingfisherWebP-watchOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,6 +180,9 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				93C911E4212D111000740633 /* KingfisherWebP-iOS */,
+				93C911F6212D124800740633 /* KingfisherWebP-tvOS */,
+				93C91203212D126F00740633 /* KingfisherWebP-watchOS */,
 				607FACD11AFB9204008FA782 /* Products */,
 				1F109D46A614EC682E1AC45F /* Pods */,
 				17D89F02592A6B9F55437A60 /* Frameworks */,
@@ -107,6 +194,9 @@
 			children = (
 				607FACE51AFB9204008FA782 /* KingfisherWebP_Tests.xctest */,
 				383E63ED1DB92CB20041CE17 /* KingfisherWebPExample.app */,
+				93C911E3212D111000740633 /* KingfisherWebP.framework */,
+				93C911F5212D124800740633 /* KingfisherWebP.framework */,
+				93C91202212D126F00740633 /* KingfisherWebP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,7 +229,61 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		93C911E4212D111000740633 /* KingfisherWebP-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				93C911E5212D111000740633 /* KingfisherWebP_iOS.h */,
+				93C911E6212D111000740633 /* Info.plist */,
+			);
+			path = "KingfisherWebP-iOS";
+			sourceTree = "<group>";
+		};
+		93C911F6212D124800740633 /* KingfisherWebP-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				93C911F7212D124800740633 /* KingfisherWebP_tvOS.h */,
+				93C911F8212D124800740633 /* Info.plist */,
+			);
+			path = "KingfisherWebP-tvOS";
+			sourceTree = "<group>";
+		};
+		93C91203212D126F00740633 /* KingfisherWebP-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				93C91204212D126F00740633 /* KingfisherWebP_watchOS.h */,
+				93C91205212D126F00740633 /* Info.plist */,
+			);
+			path = "KingfisherWebP-watchOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93C911DE212D111000740633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C911E7212D111000740633 /* KingfisherWebP_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911F0212D124800740633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C911F9212D124800740633 /* KingfisherWebP_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911FD212D126F00740633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C91206212D126F00740633 /* KingfisherWebP_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		383E63EC1DB92CB20041CE17 /* KingfisherWebPExample */ = {
@@ -149,10 +293,12 @@
 				383E63E91DB92CB20041CE17 /* Sources */,
 				383E63EA1DB92CB20041CE17 /* Frameworks */,
 				383E63EB1DB92CB20041CE17 /* Resources */,
+				93C911EF212D111000740633 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				93C911E9212D111000740633 /* PBXTargetDependency */,
 			);
 			name = KingfisherWebPExample;
 			productName = KingfisherWebPExample;
@@ -178,6 +324,63 @@
 			productReference = 607FACE51AFB9204008FA782 /* KingfisherWebP_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		93C911E2212D111000740633 /* KingfisherWebP-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C911EE212D111000740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-iOS" */;
+			buildPhases = (
+				8FB3D9D9DC0C08CB5F5F3F08 /* [CP] Check Pods Manifest.lock */,
+				93C911DE212D111000740633 /* Headers */,
+				93C911DF212D111000740633 /* Sources */,
+				93C911E0212D111000740633 /* Frameworks */,
+				93C911E1212D111000740633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KingfisherWebP-iOS";
+			productName = "KingfisherWebP-iOS";
+			productReference = 93C911E3212D111000740633 /* KingfisherWebP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93C911F4212D124800740633 /* KingfisherWebP-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C911FA212D124800740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-tvOS" */;
+			buildPhases = (
+				2405DD093BC54DCA38BD4D16 /* [CP] Check Pods Manifest.lock */,
+				93C911F0212D124800740633 /* Headers */,
+				93C911F1212D124800740633 /* Sources */,
+				93C911F2212D124800740633 /* Frameworks */,
+				93C911F3212D124800740633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KingfisherWebP-tvOS";
+			productName = "KingfisherWebP-tvOS";
+			productReference = 93C911F5212D124800740633 /* KingfisherWebP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93C91201212D126F00740633 /* KingfisherWebP-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C91207212D126F00740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-watchOS" */;
+			buildPhases = (
+				238457DE3EABFBBDBD11F3F8 /* [CP] Check Pods Manifest.lock */,
+				93C911FD212D126F00740633 /* Headers */,
+				93C911FE212D126F00740633 /* Sources */,
+				93C911FF212D126F00740633 /* Frameworks */,
+				93C91200212D126F00740633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KingfisherWebP-watchOS";
+			productName = "KingfisherWebP-watchOS";
+			productReference = 93C91202212D126F00740633 /* KingfisherWebP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +399,18 @@
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					93C911E2212D111000740633 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					93C911F4212D124800740633 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					93C91201212D126F00740633 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "KingfisherWebP" */;
@@ -213,6 +428,9 @@
 			targets = (
 				607FACE41AFB9204008FA782 /* KingfisherWebP_Tests */,
 				383E63EC1DB92CB20041CE17 /* KingfisherWebPExample */,
+				93C911E2212D111000740633 /* KingfisherWebP-iOS */,
+				93C911F4212D124800740633 /* KingfisherWebP-tvOS */,
+				93C91201212D126F00740633 /* KingfisherWebP-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -240,9 +458,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93C911E1212D111000740633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911F3212D124800740633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C91200212D126F00740633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		238457DE3EABFBBDBD11F3F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherWebP-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2405DD093BC54DCA38BD4D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherWebP-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		58B0348AA71347356D669ABC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,9 +525,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KingfisherWebP_Tests/Pods-KingfisherWebP_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher-iOS/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KingfisherWebP-iOS/KingfisherWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp-iOS/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -263,6 +538,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingfisherWebP_Tests/Pods-KingfisherWebP_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB3D9D9DC0C08CB5F5F3F08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherWebP-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2D6F902231FDD839C3FC5BB /* [CP] Check Pods Manifest.lock */ = {
@@ -301,7 +594,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93C911DF212D111000740633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911F1212D124800740633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C911FE212D126F00740633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C911E9212D111000740633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C911E2212D111000740633 /* KingfisherWebP-iOS */;
+			targetProxy = 93C911E8212D111000740633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		383E63FD1DB92CB20041CE17 /* Debug */ = {
@@ -311,6 +633,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = KingfisherWebPExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -330,6 +653,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = KingfisherWebPExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,6 +803,221 @@
 			};
 			name = Release;
 		};
+		93C911EC212D111000740633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8E657FF8D59827316469FE /* Pods-KingfisherWebP-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-iOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93C911ED212D111000740633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF368C823B880E99FBC84BA /* Pods-KingfisherWebP-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-iOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93C911FB212D124800740633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B53D86FCC24591EBD9E790 /* Pods-KingfisherWebP-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-tvOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93C911FC212D124800740633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC689D47817BF136CB9D4A1B /* Pods-KingfisherWebP-tvOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-tvOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93C91208212D126F00740633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2428C3C81FBDC27B15EB261F /* Pods-KingfisherWebP-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-watchOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		93C91209212D126F00740633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B6E0FDCC90587429C96FFB /* Pods-KingfisherWebP-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KingfisherWebP-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeatse.KingfisherWebP-watchOS";
+				PRODUCT_NAME = KingfisherWebP;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +1044,33 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C911EE212D111000740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C911EC212D111000740633 /* Debug */,
+				93C911ED212D111000740633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C911FA212D124800740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C911FB212D124800740633 /* Debug */,
+				93C911FC212D124800740633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C91207212D126F00740633 /* Build configuration list for PBXNativeTarget "KingfisherWebP-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C91208212D126F00740633 /* Debug */,
+				93C91209212D126F00740633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
